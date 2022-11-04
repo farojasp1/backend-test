@@ -1,9 +1,9 @@
-// import { CommerceRepository } from "../src/application/repository/commerce.reposirory";
-// import { Day } from "../src/domain/";
-// import {
-//   Commerce,
-//   CommerceScheduleDate,
-// } from "../src/domain/commerce.interface";
+import { CommerceRepository } from "../src/application/repository/commerce.reposirory";
+import { Day } from "../src/domain/";
+import {
+   Commerce,
+   CommerceScheduleDate,
+ } from "../src/domain/commerce.interface";
 
 describe("Repositories", () => {
   test("Pending by implementation", async () => {
