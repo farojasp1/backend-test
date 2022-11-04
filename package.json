@@ -11,6 +11,8 @@
     "start": "node ./dist/src/index.js",
     "dev": "ts-node-dev --rs --watch --clear --exit-child ./src/index.ts ",
     "test": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
     "lint": "eslint --ignore-path .gitignore . --ext .ts",
     "lint:fix": "npm run lint -- --fix"
   },
