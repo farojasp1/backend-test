@@ -17,7 +17,7 @@ export interface PaymentMethod {
   name: string;
 }
 export type OperationStatus = "Completed" | "NoCompleted";
-export type ROL = "Managerial" | "Operator";
+export type ROL = "Administrator" | "Operator";
 
 export type Day =
   | "monday"
